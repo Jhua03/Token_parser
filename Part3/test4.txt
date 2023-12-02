@@ -1,0 +1,46 @@
+Destroying TreeNode with 6 children.
+Destroying TreeNode with 1 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 4 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 1 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 2 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+          Lectures	| 4
+        bitmap.bmp	F
+           Course1	| 0
+           Course2	| 0
+  spreadsheet.xlsx	F
+Destroying TreeNode with 4 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 4 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Count:  15
+Destroying TreeNode with 6 children.
+Destroying TreeNode with 1 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 4 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 1 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 2 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.

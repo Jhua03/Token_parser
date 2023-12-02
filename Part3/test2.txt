@@ -1,0 +1,6 @@
+         first.txt	F
+             Notes	| 2
+               One	| 0
+Destroying TreeNode with 2 children.
+Destroying TreeNode with 0 children.
+Destroying TreeNode with 0 children.

@@ -1,0 +1,1547 @@
+=cmd-param-changed,param="logging enabled",value="on"
+~"File(s) /usr/include/c++/*/*/* will be skipped when stepping.\n"
+~"File(s) /usr/include/c++/*/* will be skipped when stepping.\n"
+~"File(s) /usr/include/c++/* will be skipped when stepping.\n"
+14^done
+(gdb) 
+15^done,groups=[{id="i1",type="process"}]
+(gdb) 
+16^done
+(gdb) 
+17^done
+(gdb) 
+18^done
+(gdb) 
+19^done
+(gdb) 
+20^done,value="auto"
+(gdb) 
+21^done
+(gdb) 
+~"$1 = 0xff\n"
+22^done
+(gdb) 
+23^done,value="8"
+(gdb) 
+24^done
+(gdb) 
+~"The target endianness is set automatically (currently little endian).\n"
+25^done
+(gdb) 
+26^done,bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="0x0000000000009978",func="ensc251::TreeNode::TreeNode(ensc251::TreeNode const&)",file="../src/TreeNode.hpp",fullname="/mnt/hgfs/VMsf/Part3/src/TreeNode.hpp",line="72",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf/Part3/src/TreeNode.hpp:72"}
+(gdb) 
+27^done,bkpt={number="3",type="breakpoint",disp="keep",enabled="y",addr="0x00000000000059ce",func="check(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="29",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf/Part3/src/Test.cpp:28"}
+(gdb) 
+28^done,bkpt={number="4",type="breakpoint",disp="del",enabled="y",addr="0x00000000000068ce",func="test1::test_method()",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="55",thread-groups=["i1"],times="0",original-location="test1::test_method"}
+(gdb) 
+29^done
+(gdb) 
+=thread-group-started,id="i1",pid="6382"
+=thread-created,id="1",group-id="i1"
+=breakpoint-modified,bkpt={number="2",type="breakpoint",disp="keep",enabled="y",addr="0x000055555555d978",func="ensc251::TreeNode::TreeNode(ensc251::TreeNode const&)",file="../src/TreeNode.hpp",fullname="/mnt/hgfs/VMsf/Part3/src/TreeNode.hpp",line="72",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf/Part3/src/TreeNode.hpp:72"}
+=breakpoint-modified,bkpt={number="3",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555599ce",func="check(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="29",thread-groups=["i1"],times="0",original-location="/mnt/hgfs/VMsf/Part3/src/Test.cpp:28"}
+=breakpoint-modified,bkpt={number="4",type="breakpoint",disp="del",enabled="y",addr="0x000055555555a8ce",func="test1::test_method()",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="55",thread-groups=["i1"],times="0",original-location="test1::test_method"}
+=library-loaded,id="/lib64/ld-linux-x86-64.so.2",target-name="/lib64/ld-linux-x86-64.so.2",host-name="/lib64/ld-linux-x86-64.so.2",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7fc80a0",to="0x00007ffff7ff0465"}]
+~"\nThis GDB supports auto-downloading debuginfo from the following URLs:\n"
+~"https://debuginfod.ubuntu.com \nEnable debuginfod for this session? "
+~"(y or [n]) [answered N; input not from terminal]\n"
+~"Debuginfod has been disabled.\nTo make this setting permanent, add 'set debuginfod enabled off' to .gdbinit.\n"
+30^running
+*running,thread-id="all"
+(gdb) 
+31^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+=library-loaded,id="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",target-name="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",host-name="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7f34290",to="0x00007ffff7f8db7d"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libstdc++.so.6",target-name="/lib/x86_64-linux-gnu/libstdc++.so.6",host-name="/lib/x86_64-linux-gnu/libstdc++.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7ca2420",to="0x00007ffff7da9422"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libgcc_s.so.1",target-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",host-name="/lib/x86_64-linux-gnu/libgcc_s.so.1",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7efe660",to="0x00007ffff7f14be5"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libc.so.6",target-name="/lib/x86_64-linux-gnu/libc.so.6",host-name="/lib/x86_64-linux-gnu/libc.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7822700",to="0x00007ffff799947d"}]
+=library-loaded,id="/lib/x86_64-linux-gnu/libm.so.6",target-name="/lib/x86_64-linux-gnu/libm.so.6",host-name="/lib/x86_64-linux-gnu/libm.so.6",symbols-loaded="0",thread-group="i1",ranges=[{from="0x00007ffff7b253c0",to="0x00007ffff7ba24f8"}]
+=breakpoint-modified,bkpt={number="1",type="catchpoint",disp="keep",enabled="y",what="exception throw",catch-type="throw",thread-groups=["i1"],times="0"}
+=breakpoint-modified,bkpt={number="4",type="breakpoint",disp="del",enabled="y",addr="0x000055555555a8ce",func="test1::test_method()",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="55",thread-groups=["i1"],times="1",original-location="test1::test_method"}
+~"\n"
+~"Temporary breakpoint 4, test1::test_method (this=0x7fffffffc3ae) at ../src/Test.cpp:55\n"
+~"55\t\tstd::cout << \"***** test1 *****\" << endl;\n"
+*stopped,reason="breakpoint-hit",disp="del",bkptno="4",frame={addr="0x000055555555a8ce",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="55",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+=breakpoint-deleted,id="4"
+32^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+33^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x000055555555a8ce",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="55",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+34^done,depth="11"
+(gdb) 
+35^done
+(gdb) 
+36^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+37^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x000055555555a8ce",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="55",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+38^done,locals=[]
+(gdb) 
+39^done,depth="13"
+(gdb) 
+40^done,name="var1",numchild="1",value="0x7fffffffc3ae",type="test1 * const",thread-id="1",has_more="0"
+(gdb) 
+41^done,stack=[frame={level="0",addr="0x000055555555a8ce",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="55",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="2",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="3",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+42^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a8f9",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="57",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+43^done,locals=[{name="root_dir1P",value="std::shared_ptr<Directory> (use count 521126749, weak count -1844081921) = {get() = 0x7ffff7fac4e0}"}]
+(gdb) 
+44^done,depth="11"
+(gdb) 
+45^done,depth="13"
+(gdb) 
+46^done,changelist=[]
+(gdb) 
+47^done,name="var2",numchild="0",value="{...}",type="std::shared_ptr<Directory>",thread-id="1",dynamic="1",has_more="1"
+(gdb) 
+48^done
+(gdb) 
+49^done,numchild="1",children=[child={name="var2.get()",exp="get()",numchild="1",type="std::__shared_ptr<Directory, (__gnu_cxx::_Lock_policy)2>::element_type *",thread-id="1"}],has_more="0"
+(gdb) 
+50^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+51^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x000055555555a8f9",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="57",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+52^done,stack=[frame={level="0",addr="0x000055555555a8f9",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="57",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="2",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="3",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+53^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a922",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="58",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+54^done,locals=[{name="root_dir1P",value="std::shared_ptr<Directory> (use count 1, weak count 0) = {get() = 0x555555587620}"}]
+(gdb) 
+55^done,depth="11"
+(gdb) 
+56^done
+(gdb) 
+57^done,depth="13"
+(gdb) 
+58^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+59^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x000055555555a922",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="58",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+60^done,changelist=[]
+(gdb) 
+61^done,changelist=[{name="var2.get()",value="0x555555587620",in_scope="true",type_changed="true",new_type="Directory *",new_num_children="1",has_more="0"}]
+(gdb) 
+62^done,stack=[frame={level="0",addr="0x000055555555a922",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="58",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="2",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="3",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+63^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a932",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="59",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+64^done,locals=[{name="root_dir1P",value="std::shared_ptr<Directory> (use count 1, weak count 0) = {get() = 0x555555587620}"}]
+(gdb) 
+65^done,depth="11"
+(gdb) 
+66^done
+(gdb) 
+67^done,depth="13"
+(gdb) 
+68^done,changelist=[]
+(gdb) 
+69^done,changelist=[]
+(gdb) 
+70^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+71^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x000055555555a932",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="59",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+72^done,stack=[frame={level="0",addr="0x000055555555a932",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="59",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="2",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="3",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+73^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a94d",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="61",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+74^done,locals=[{name="root_dir1P",value="std::shared_ptr<Directory> (use count 1, weak count 0) = {get() = 0x555555587620}"}]
+(gdb) 
+75^done,depth="11"
+(gdb) 
+76^done,depth="13"
+(gdb) 
+77^done,changelist=[]
+(gdb) 
+78^done,changelist=[]
+(gdb) 
+79^done
+(gdb) 
+80^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+81^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x000055555555a94d",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="61",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+82^done,stack=[frame={level="0",addr="0x000055555555a94d",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="61",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="2",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="3",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+83^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x000055555555a959",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+84^done,locals=[]
+(gdb) 
+85^done,depth="11"
+(gdb) 
+86^done
+(gdb) 
+87^done,depth="13"
+(gdb) 
+88^done,changelist=[]
+(gdb) 
+89^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+90^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x000055555555a959",func="test1::test_method",args=[{name="this",value="0x7fffffffc3ae"}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+91^done,stack=[frame={level="0",addr="0x000055555555a959",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="2",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="3",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+92^running
+*running,thread-id="all"
+(gdb) 
+=breakpoint-modified,bkpt={number="3",type="breakpoint",disp="keep",enabled="y",addr="0x00005555555599ce",func="check(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >)",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="29",thread-groups=["i1"],times="1",original-location="/mnt/hgfs/VMsf/Part3/src/Test.cpp:28"}
+~"\n"
+~"Breakpoint 3, check (outputFile=\"test1.txt\") at ../src/Test.cpp:29\n"
+~"29\t{\n"
+*stopped,reason="breakpoint-hit",disp="keep",bkptno="3",frame={addr="0x00005555555599ce",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="29",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+93^done,locals=[{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+94^done,depth="11"
+(gdb) 
+95^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+96^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x00005555555599ce",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="29",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+97^done,depth="14"
+(gdb) 
+98^done
+(gdb) 
+99^done,name="var3",numchild="0",value="\"test1.txt\"",type="std::string",thread-id="1",displayhint="string",dynamic="1",has_more="0"
+(gdb) 
+100^done,stack=[frame={level="0",addr="0x00005555555599ce",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="29",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+101^done,name="var4",numchild="0",value="{...}",type="std::ifstream",thread-id="1",has_more="0"
+(gdb) 
+102^done,name="var5",numchild="0",value="{...}",type="std::stringstream",thread-id="1",has_more="0"
+(gdb) 
+103^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555599dd",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="30",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+104^done,locals=[{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+105^done,depth="11"
+(gdb) 
+106^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+107^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x00005555555599dd",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="30",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+108^done,depth="14"
+(gdb) 
+109^done
+(gdb) 
+110^done,stack=[frame={level="0",addr="0x00005555555599dd",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="30",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+111^done,changelist=[]
+(gdb) 
+112^done,changelist=[]
+(gdb) 
+113^done,changelist=[]
+(gdb) 
+114^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x00005555555599fb",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="31",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+115^done,locals=[{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+116^done,depth="11"
+(gdb) 
+117^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+118^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x00005555555599fb",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="31",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+119^running
+*running,thread-id="all"
+(gdb) 
+120^error,msg="Selected thread is running."
+(gdb) 
+121^error,msg="Selected thread is running."
+(gdb) 
+122^error,msg="Selected thread is running."
+(gdb) 
+123^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559a4f",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="32",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+124^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+125^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559a4f",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="32",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+126^done,stack=[frame={level="0",addr="0x0000555555559a4f",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="32",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+127^done,locals=[{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+128^done
+(gdb) 
+129^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559a90",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="33",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+130^done,locals=[{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+131^running
+*running,thread-id="all"
+(gdb) 
+132^error,msg="Selected thread is running."
+(gdb) 
+133^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aa7",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="34",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+134^done,locals=[{name="strDesired",value="\"P\\277\\377\\377\\377\\177\\000\\000\\020@VUUU\\000\\000 \\360ZUUU\\000\\000\\033\\b\\000\\000\\000\\000\\000\\000\\033\\b\\000\\000\\000\\000\\000\\000\\270SVUUU\\000\\000h\\030\\342\\367\\377\\177\\000\\000\\000\\000\\000\\000\\000\\000\\000\\000\\220\\030\\342\\367\\377\\177\\000\\000\\370\\024\\342\\367\\377\\177\\000\\000 9[UUU\\000\\000 9[UUU\\000\\000;A[UUU\\000\\000 9[UUU\\000\\000 9[UUU\\000\\000;A[UUU\\000\\000`\\215\\342\\367\\377\\177\\000\\000\\030\\000\\000\\000UU\\000\\000 9[UUU\\000\\000\\033\\b\\000\\000\\000\\000\\000\\000\\033\\b\\000\\000\\000\\000\\000\\000\\070\\300\\377\\377\\377\\177\\000\\000\\270\\030\\342\\367\\377\\177\\000\\000\\006\", '\\000' <repeats 15 times>..."},{name="line_str",value="\"\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+135^done,depth="11"
+(gdb) 
+136^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+137^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559aa7",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="34",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+138^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559ab6",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="35",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+139^done,locals=[{name="strDesired",value="\"\""},{name="line_str",value="\"\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+140^running
+*running,thread-id="all"
+(gdb) 
+141^error,msg="Selected thread is running."
+(gdb) 
+142^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559ac5",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+143^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559ac5",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+144^done,locals=[{name="strDesired",value="\"\""},{name="line_str",value="\"\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+145^done,depth="11"
+(gdb) 
+146^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+147^running
+*running,thread-id="all"
+(gdb) 
+148^error,msg="Selected thread is running."
+(gdb) 
+149^error,msg="Selected thread is running."
+(gdb) 
+150^error,msg="Selected thread is running."
+(gdb) 
+151^error,msg="Selected thread is running."
+(gdb) 
+152^error,msg="Selected thread is running."
+(gdb) 
+153^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+154^done,locals=[{name="strDesired",value="\"     testDirectory\\t| 6\\r\""},{name="line_str",value="\"     testDirectory\\t| 6\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+155^done,depth="11"
+(gdb) 
+156^running
+*running,thread-id="all"
+(gdb) 
+157^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+158^error,msg="Selected thread is running."
+(gdb) 
+159^error,msg="Selected thread is running."
+(gdb) 
+160^error,msg="Selected thread is running."
+(gdb) 
+161^error,msg="Selected thread is running."
+(gdb) 
+162^error,msg="Selected thread is running."
+(gdb) 
+163^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="1"
+164^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},state="stopped",core="1"}]
+(gdb) 
+165^done,locals=[{name="strDesired",value="\"testDirectory\\t| 6\""},{name="line_str",value="\"testDirectory\\t| 6\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+166^running
+*running,thread-id="all"
+(gdb) 
+167^error,msg="Selected thread is running."
+(gdb) 
+168^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["1"]}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="1"
+169^done,depth="2"
+(gdb) 
+170^done,depth="14"
+(gdb) 
+171^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["1"]}]
+(gdb) 
+172^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},state="stopped",core="1"}]
+(gdb) 
+173^done,changelist=[]
+(gdb) 
+174^done,name="var6",numchild="0",value="\"testDirectory\\t| 6\"",type="std::string",thread-id="1",displayhint="string",dynamic="1",has_more="0"
+(gdb) 
+175^done,name="var7",numchild="0",value="\"testDirectory\\t| 6\"",type="std::string",thread-id="1",displayhint="string",dynamic="1",has_more="0"
+(gdb) 
+176^done,changelist=[]
+(gdb) 
+177^done,changelist=[]
+(gdb) 
+178^done,locals=[{name="strDesired",value="\"testDirectory\\t| 6\""},{name="line_str",value="\"testDirectory\\t| 6\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+179^running
+*running,thread-id="all"
+(gdb) 
+180^error,msg="Selected thread is running."
+(gdb) 
+181^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="1"
+182^done,locals=[{name="strDesired",value="\"      textfile.txt\\tF\\r\""},{name="line_str",value="' ' <repeats 13 times>, \"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+183^running
+*running,thread-id="all"
+(gdb) 
+184^error,msg="Selected thread is running."
+(gdb) 
+185^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["1"]}]
+(gdb) 
+186^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="1"}]
+(gdb) 
+187^error,msg="Selected thread is running."
+(gdb) 
+188^error,msg="Selected thread is running."
+(gdb) 
+189^error,msg="Selected thread is running."
+(gdb) 
+190^error,msg="Selected thread is running."
+(gdb) 
+191^error,msg="Selected thread is running."
+(gdb) 
+192^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="1"
+193^done,locals=[{name="strDesired",value="\"textfile.txt\\tF\""},{name="line_str",value="\"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+194^done,depth="5"
+(gdb) 
+195^running
+*running,thread-id="all"
+(gdb) 
+196^error,msg="Selected thread is running."
+(gdb) 
+197^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["1"]}]
+(gdb) 
+198^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="1"}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+199^done,locals=[{name="strDesired",value="\"textfile.txt\\tF\""},{name="line_str",value="\"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+200^done,depth="5"
+(gdb) 
+201^running
+*running,thread-id="all"
+(gdb) 
+202^error,msg="Selected thread is running."
+(gdb) 
+203^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+204^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="3"}]
+(gdb) 
+205^error,msg="Selected thread is running."
+(gdb) 
+206^error,msg="Selected thread is running."
+(gdb) 
+207^error,msg="Selected thread is running."
+(gdb) 
+208^error,msg="Selected thread is running."
+(gdb) 
+209^error,msg="Selected thread is running."
+(gdb) 
+210^error,msg="Selected thread is running."
+(gdb) 
+211^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+212^done,locals=[{name="strDesired",value="\"textfile.txt\\tF\""},{name="line_str",value="\"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+213^running
+*running,thread-id="all"
+(gdb) 
+214^error,msg="Selected thread is running."
+(gdb) 
+215^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+216^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="3"}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+217^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+218^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+219^done,depth="5"
+(gdb) 
+220^done,locals=[{name="strDesired",value="' ' <repeats 13 times>, \"Books\\t| 1\\r\""},{name="line_str",value="' ' <repeats 13 times>, \"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+221^done,depth="11"
+(gdb) 
+222^running
+*running,thread-id="all"
+(gdb) 
+223^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+224^done,depth="14"
+(gdb) 
+225^done,locals=[{name="strDesired",value="\"Books\\t| 1\""},{name="line_str",value="\"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+226^done,depth="11"
+(gdb) 
+227^done,changelist=[]
+(gdb) 
+228^done,changelist=[{name="var6",value="\"Books\\t| 1\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+229^done,changelist=[{name="var7",value="\"Video\\t| 0\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+230^done,changelist=[]
+(gdb) 
+231^done,changelist=[]
+(gdb) 
+232^running
+*running,thread-id="all"
+(gdb) 
+233^error,msg="Selected thread is running."
+(gdb) 
+234^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+235^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="3"}]
+(gdb) 
+236^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+237^done,locals=[{name="strDesired",value="\"Books\\t| 1\""},{name="line_str",value="\"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+238^running
+*running,thread-id="all"
+(gdb) 
+239^error,msg="Selected thread is running."
+(gdb) 
+240^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+241^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="3"}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+242^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+243^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+244^done,locals=[{name="strDesired",value="\"Books\\t| 1\""},{name="line_str",value="\"Video\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+245^done,depth="5"
+(gdb) 
+246^running
+*running,thread-id="all"
+(gdb) 
+247^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+248^done,locals=[{name="strDesired",value="\"          Lectures\\t| 4\\r\""},{name="line_str",value="' ' <repeats 13 times>, \"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+249^done,depth="5"
+(gdb) 
+250^running
+*running,thread-id="all"
+(gdb) 
+251^error,msg="Selected thread is running."
+(gdb) 
+252^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+253^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="3"}]
+(gdb) 
+254^error,msg="Selected thread is running."
+(gdb) 
+255^error,msg="Selected thread is running."
+(gdb) 
+256^error,msg="Selected thread is running."
+(gdb) 
+257^error,msg="Selected thread is running."
+(gdb) 
+258^error,msg="Selected thread is running."
+(gdb) 
+259^error,msg="Selected thread is running."
+(gdb) 
+260^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+261^done,locals=[{name="strDesired",value="\"Lectures\\t| 4\""},{name="line_str",value="\"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+262^done,depth="11"
+(gdb) 
+263^done,depth="5"
+(gdb) 
+264^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+265^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+266^done,depth="14"
+(gdb) 
+267^done
+(gdb) 
+268^done,changelist=[]
+(gdb) 
+269^done,changelist=[{name="var6",value="\"Lectures\\t| 4\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+270^done,changelist=[{name="var7",value="\"Notes\\t| 2\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+271^done,changelist=[]
+(gdb) 
+272^done,changelist=[]
+(gdb) 
+273^done,stack=[frame={level="0",addr="0x0000555555559b38",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+274^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+275^done,locals=[{name="strDesired",value="\"Lectures\\t| 4\""},{name="line_str",value="\"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+276^running
+*running,thread-id="all"
+(gdb) 
+277^error,msg="Selected thread is running."
+(gdb) 
+278^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+279^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="2"}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+280^done,depth="11"
+(gdb) 
+281^done,locals=[{name="strDesired",value="\"Lectures\\t| 4\""},{name="line_str",value="\"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+282^done
+(gdb) 
+283^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+284^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+285^done,depth="14"
+(gdb) 
+286^done,changelist=[]
+(gdb) 
+287^done,changelist=[]
+(gdb) 
+288^done,changelist=[]
+(gdb) 
+289^done,changelist=[]
+(gdb) 
+290^done,changelist=[]
+(gdb) 
+291^done,stack=[frame={level="0",addr="0x0000555555559cca",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+292^error,msg="No symbol \"this\" in current context."
+(gdb) 
+293^error,msg="A syntax error in expression, near `traverse_func>(&Directory::print_traverse)'."
+(gdb) 
+294^error,msg="Attempt to use a type name as an expression"
+(gdb) 
+295^error,msg="No symbol \"childSPVector\" in current context."
+(gdb) 
+296^error,msg="No symbol \"print_action\" in current context."
+(gdb) 
+297^error,msg="No symbol \"print_traverse\" in current context."
+(gdb) 
+298^error,msg="Attempt to use a type name as an expression"
+(gdb) 
+299^error,msg="Attempt to use a type name as an expression"
+(gdb) 
+300^done,value="{i = {0, 1127522290}, x = 5805361265115136, d = 5805361265115136}"
+(gdb) 
+301^done,name="var8",numchild="1",value="{...}",type="const mynumber",has_more="0"
+(gdb) 
+302^done,numchild="1",children=[child={name="var8.public",exp="public",numchild="3"}],has_more="0"
+(gdb) 
+303^done,numchild="3",children=[child={name="var8.public.i",exp="i",numchild="2",type="int4 [2]"},child={name="var8.public.x",exp="x",numchild="0",type="double"},child={name="var8.public.d",exp="d",numchild="0",type="double"}],has_more="0"
+(gdb) 
+304^done,path_expr="((e).i)"
+(gdb) 
+305^done,path_expr="((e).x)"
+(gdb) 
+306^done,path_expr="((e).d)"
+(gdb) 
+307^done,name="var9",numchild="1",value="0x5555555898d0",type="int4 (*)[2]",has_more="0"
+(gdb) 
+308^error,msg="No symbol \"traverse_children_in_order\" in current context."
+(gdb) 
+309^done,value="\"Error -- can only do inorder traversal on a node with 2 children\""
+(gdb) 
+310^done,name="var10",numchild="65",value="[65]",type="char [65]",has_more="0"
+(gdb) 
+311^done,name="var11",numchild="1",value="0x55555558e3a0",type="char (*)[65]",has_more="0"
+(gdb) 
+312^done,name="var12",numchild="0",value="69 'E'",type="char",has_more="0"
+(gdb) 
+313^done,name="var13",numchild="0",value="114 'r'",type="char",has_more="0"
+(gdb) 
+314^done,name="var14",numchild="0",value="114 'r'",type="char",has_more="0"
+(gdb) 
+315^done,name="var15",numchild="0",value="111 'o'",type="char",has_more="0"
+(gdb) 
+316^done,name="var16",numchild="0",value="114 'r'",type="char",has_more="0"
+(gdb) 
+317^done,format="octal",value="02525252526161640"
+(gdb) 
+318^done,format="natural",value="0x55555558e3a0"
+(gdb) 
+319^done,format="decimal",value="93824992469920"
+(gdb) 
+320^done,format="natural",value="0x55555558e3a0"
+(gdb) 
+321^done,format="binary",value="10101010101010101010101010110001110001110100000"
+(gdb) 
+322^done,format="natural",value="0x55555558e3a0"
+(gdb) 
+323^done,format="hexadecimal",value="0x55555558e3a0"
+(gdb) 
+324^done,format="natural",value="0x55555558e3a0"
+(gdb) 
+325^error,msg="No symbol \"this\" in current context."
+(gdb) 
+326^error,msg="No symbol \"traverse_children_pre_order\" in current context."
+(gdb) 
+327^error,msg="No symbol \"this\" in current context."
+(gdb) 
+328^error,msg="No symbol \"this\" in current context."
+(gdb) 
+329^done,value="0"
+(gdb) 
+330^done,name="var17",numchild="0",value="0",type="int",has_more="0"
+(gdb) 
+331^done,format="octal",value="0"
+(gdb) 
+332^done,format="natural",value="0"
+(gdb) 
+333^done,format="decimal",value="0"
+(gdb) 
+334^done,format="natural",value="0"
+(gdb) 
+335^done,format="binary",value="0"
+(gdb) 
+336^done,format="natural",value="0"
+(gdb) 
+337^done,format="hexadecimal",value="0x0"
+(gdb) 
+338^done,format="natural",value="0"
+(gdb) 
+339^error,msg="No symbol \"this\" in current context."
+(gdb) 
+340^error,msg="No symbol \"this\" in current context."
+(gdb) 
+341^error,msg="No symbol \"this\" in current context."
+(gdb) 
+342^error,msg="No symbol \"reverse\" in current context."
+(gdb) 
+343^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+344^done,locals=[{name="strDesired",value="\"        bitmap.bmp\\tF\\r\""},{name="line_str",value="' ' <repeats 15 times>, \"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+345^done,depth="11"
+(gdb) 
+346^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+347^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+348^done,depth="14"
+(gdb) 
+349^done,changelist=[]
+(gdb) 
+350^done,changelist=[{name="var6",value="\"        bitmap.bmp\\tF\\r\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+351^done,changelist=[{name="var7",value="' ' <repeats 15 times>, \"One\\t| 0\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+352^done,changelist=[]
+(gdb) 
+353^done,changelist=[]
+(gdb) 
+354^done
+(gdb) 
+355^done,stack=[frame={level="0",addr="0x0000555555559aca",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+356^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+357^done,locals=[{name="strDesired",value="\"bitmap.bmp\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+358^done,depth="11"
+(gdb) 
+359^done,depth="14"
+(gdb) 
+360^done,changelist=[]
+(gdb) 
+361^done,changelist=[{name="var6",value="\"bitmap.bmp\\tF\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+362^done,changelist=[{name="var7",value="\"One\\t| 0\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+363^done,changelist=[]
+(gdb) 
+364^done,changelist=[]
+(gdb) 
+365^done
+(gdb) 
+366^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+367^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+368^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+369^done,locals=[{name="strDesired",value="\"bitmap.bmp\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+370^done,depth="11"
+(gdb) 
+371^running
+*running,thread-id="all"
+(gdb) 
+372^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+373^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="2"}]
+(gdb) 
+374^error,msg="Selected thread is running."
+(gdb) 
+375^error,msg="Selected thread is running."
+(gdb) 
+376^error,msg="Selected thread is running."
+(gdb) 
+377^error,msg="Selected thread is running."
+(gdb) 
+378^error,msg="Selected thread is running."
+(gdb) 
+379^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+380^done,locals=[{name="strDesired",value="\"bitmap.bmp\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+381^done,depth="11"
+(gdb) 
+382^running
+*running,thread-id="all"
+(gdb) 
+383^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+384^error,msg="Selected thread is running."
+(gdb) 
+385^error,msg="Selected thread is running."
+(gdb) 
+386^error,msg="Selected thread is running."
+(gdb) 
+387^error,msg="Selected thread is running."
+(gdb) 
+388^error,msg="Selected thread is running."
+(gdb) 
+389^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+390^done,locals=[{name="strDesired",value="' ' <repeats 11 times>, \"Course1\\t| 0\\r\""},{name="line_str",value="' ' <repeats 15 times>, \"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+391^done,depth="11"
+(gdb) 
+392^running
+*running,thread-id="all"
+(gdb) 
+393^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+394^done,locals=[{name="strDesired",value="\"Course1\\t| 0\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+395^done,depth="11"
+(gdb) 
+396^done,depth="14"
+(gdb) 
+397^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+398^running
+*running,thread-id="all"
+(gdb) 
+399^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+400^error,msg="Selected thread is running."
+(gdb) 
+401^error,msg="Selected thread is running."
+(gdb) 
+402^error,msg="Selected thread is running."
+(gdb) 
+403^error,msg="Selected thread is running."
+(gdb) 
+404^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+405^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+406^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+407^done,locals=[{name="strDesired",value="\"Course1\\t| 0\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+408^done,depth="11"
+(gdb) 
+409^running
+*running,thread-id="all"
+(gdb) 
+410^error,msg="Selected thread is running."
+(gdb) 
+411^error,msg="Selected thread is running."
+(gdb) 
+412^error,msg="Selected thread is running."
+(gdb) 
+413^error,msg="Selected thread is running."
+(gdb) 
+414^error,msg="Selected thread is running."
+(gdb) 
+415^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="1"
+416^done,locals=[{name="strDesired",value="\"Course1\\t| 0\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+417^done,depth="11"
+(gdb) 
+418^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+419^done
+(gdb) 
+420^done,depth="2"
+(gdb) 
+421^done,locals=[{name="strDesired",value="' ' <repeats 11 times>, \"Course2\\t| 0\\r\""},{name="line_str",value="\"         first.txt\\tF\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+422^done,depth="11"
+(gdb) 
+423^done,depth="14"
+(gdb) 
+424^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+425^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+426^running
+*running,thread-id="all"
+(gdb) 
+427^error,msg="Selected thread is running."
+(gdb) 
+428^error,msg="Selected thread is running."
+(gdb) 
+429^error,msg="Selected thread is running."
+(gdb) 
+430^error,msg="Selected thread is running."
+(gdb) 
+431^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+432^done,depth="14"
+(gdb) 
+433^done,locals=[{name="strDesired",value="\"Course2\\t| 0\""},{name="line_str",value="\"first.txt\\tF\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+434^done,depth="11"
+(gdb) 
+435^done,changelist=[]
+(gdb) 
+436^done,changelist=[{name="var6",value="\"Course2\\t| 0\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+437^done,changelist=[{name="var7",value="\"first.txt\\tF\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+438^done,changelist=[]
+(gdb) 
+439^done,changelist=[]
+(gdb) 
+440^running
+*running,thread-id="all"
+(gdb) 
+441^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+442^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+443^done,stack=[frame={level="0",addr="0x0000555555559b5c",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+444^done
+(gdb) 
+445^done,locals=[{name="strDesired",value="\"Course2\\t| 0\""},{name="line_str",value="\"first.txt\\tF\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+446^done
+(gdb) 
+447^running
+*running,thread-id="all"
+(gdb) 
+448^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+449^done,locals=[{name="strDesired",value="\"Course2\\t| 0\""},{name="line_str",value="\"first.txt\\tF\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+450^done,depth="11"
+(gdb) 
+451^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+452^done,depth="14"
+(gdb) 
+453^done,locals=[{name="strDesired",value="\"  spreadsheet.xlsx\\tF\\r\""},{name="line_str",value="' ' <repeats 13 times>, \"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+454^done,changelist=[]
+(gdb) 
+455^done,changelist=[{name="var6",value="\"  spreadsheet.xlsx\\tF\\r\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+456^done,changelist=[{name="var7",value="' ' <repeats 13 times>, \"Notes\\t| 2\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+457^done,changelist=[]
+(gdb) 
+458^done,changelist=[]
+(gdb) 
+459^running
+*running,thread-id="all"
+(gdb) 
+460^error,msg="Selected thread is running."
+(gdb) 
+461^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["1"]}]
+(gdb) 
+462^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="1"}]
+(gdb) 
+463^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="1"
+464^done,locals=[{name="strDesired",value="\"spreadsheet.xlsx\\tF\""},{name="line_str",value="\"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+465^running
+*running,thread-id="all"
+(gdb) 
+466^error,msg="Selected thread is running."
+(gdb) 
+467^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["1"]}]
+(gdb) 
+468^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",state="running",core="0"}]
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="0"
+469^done
+(gdb) 
+470^done,depth="2"
+(gdb) 
+471^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["0"]}]
+(gdb) 
+472^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},state="stopped",core="0"}]
+(gdb) 
+473^done,locals=[{name="strDesired",value="\"spreadsheet.xlsx\\tF\""},{name="line_str",value="\"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+474^done,depth="10"
+(gdb) 
+475^running
+*running,thread-id="all"
+(gdb) 
+476^error,msg="Selected thread is running."
+(gdb) 
+477^error,msg="Selected thread is running."
+(gdb) 
+478^error,msg="Selected thread is running."
+(gdb) 
+479^error,msg="Selected thread is running."
+(gdb) 
+480^error,msg="Selected thread is running."
+(gdb) 
+481^error,msg="Selected thread is running."
+(gdb) 
+482^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+483^done,locals=[{name="strDesired",value="\"spreadsheet.xlsx\\tF\""},{name="line_str",value="\"Notes\\t| 2\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+484^done,depth="11"
+(gdb) 
+485^running
+*running,thread-id="all"
+(gdb) 
+486^error,msg="Selected thread is running."
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+487^done,locals=[{name="strDesired",value="\"      mainFile.txt\\tF\\r\""},{name="line_str",value="' ' <repeats 15 times>, \"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+488^done,depth="11"
+(gdb) 
+489^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+490^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+491^done,stack=[frame={level="0",addr="0x0000555555559aca",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+492^running
+*running,thread-id="all"
+(gdb) 
+493^error,msg="Selected thread is running."
+(gdb) 
+494^error,msg="Selected thread is running."
+(gdb) 
+495^error,msg="Selected thread is running."
+(gdb) 
+496^error,msg="Selected thread is running."
+(gdb) 
+497^error,msg="Selected thread is running."
+(gdb) 
+498^error,msg="Selected thread is running."
+(gdb) 
+499^error,msg="Selected thread is running."
+(gdb) 
+500^done,new-thread-id="1"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+501^done,depth="11"
+(gdb) 
+502^done
+(gdb) 
+503^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+504^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+505^done,locals=[{name="strDesired",value="\"mainFile.txt\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+506^done,stack=[frame={level="0",addr="0x0000555555559b38",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+507^done,depth="14"
+(gdb) 
+508^done,changelist=[]
+(gdb) 
+509^done,changelist=[{name="var6",value="\"mainFile.txt\\tF\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+510^done,changelist=[{name="var7",value="\"One\\t| 0\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+511^done,changelist=[]
+(gdb) 
+512^done,changelist=[]
+(gdb) 
+513^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+514^done,locals=[{name="strDesired",value="\"mainFile.txt\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+515^done,depth="11"
+(gdb) 
+516^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+517^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+518^done,depth="14"
+(gdb) 
+519^done
+(gdb) 
+520^done,changelist=[]
+(gdb) 
+521^done,changelist=[]
+(gdb) 
+522^done,changelist=[]
+(gdb) 
+523^done,changelist=[]
+(gdb) 
+524^done,changelist=[]
+(gdb) 
+525^done,stack=[frame={level="0",addr="0x0000555555559b5c",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+526^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+527^done,locals=[{name="strDesired",value="\"mainFile.txt\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+528^done,depth="11"
+(gdb) 
+529^done
+(gdb) 
+530^done,depth="14"
+(gdb) 
+531^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+532^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+533^done,changelist=[]
+(gdb) 
+534^done,changelist=[]
+(gdb) 
+535^done,changelist=[]
+(gdb) 
+536^done,changelist=[]
+(gdb) 
+537^done,changelist=[]
+(gdb) 
+538^done,stack=[frame={level="0",addr="0x0000555555559cca",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+539^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="2"
+540^done,locals=[{name="strDesired",value="\"         songs.zip\\tF\\r\""},{name="line_str",value="' ' <repeats 15 times>, \"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+541^done,depth="11"
+(gdb) 
+542^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["2"]}]
+(gdb) 
+543^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},state="stopped",core="2"}]
+(gdb) 
+544^done,depth="14"
+(gdb) 
+545^done
+(gdb) 
+546^done,changelist=[]
+(gdb) 
+547^done,changelist=[{name="var6",value="\"         songs.zip\\tF\\r\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+548^done,changelist=[{name="var7",value="' ' <repeats 15 times>, \"One\\t| 0\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+549^done,changelist=[]
+(gdb) 
+550^done,changelist=[]
+(gdb) 
+551^done,stack=[frame={level="0",addr="0x0000555555559aca",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+552^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+553^done,locals=[{name="strDesired",value="\"songs.zip\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+554^done,depth="11"
+(gdb) 
+555^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+556^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+557^done,depth="14"
+(gdb) 
+558^done
+(gdb) 
+559^done,changelist=[]
+(gdb) 
+560^done,changelist=[{name="var6",value="\"songs.zip\\tF\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+561^done,changelist=[{name="var7",value="\"One\\t| 0\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+562^done,changelist=[]
+(gdb) 
+563^done,changelist=[]
+(gdb) 
+564^done,stack=[frame={level="0",addr="0x0000555555559b38",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+565^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+566^done,locals=[{name="strDesired",value="\"songs.zip\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+567^done,depth="11"
+(gdb) 
+568^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+569^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+570^done,depth="14"
+(gdb) 
+571^done
+(gdb) 
+572^done,stack=[frame={level="0",addr="0x0000555555559b5c",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+573^done,changelist=[]
+(gdb) 
+574^done,changelist=[]
+(gdb) 
+575^done,changelist=[]
+(gdb) 
+576^done,changelist=[]
+(gdb) 
+577^done,changelist=[]
+(gdb) 
+578^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+579^done,locals=[{name="strDesired",value="\"songs.zip\\tF\""},{name="line_str",value="\"One\\t| 0\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+580^done,depth="11"
+(gdb) 
+581^done
+(gdb) 
+582^done,depth="14"
+(gdb) 
+583^done,changelist=[]
+(gdb) 
+584^done,changelist=[]
+(gdb) 
+585^done,changelist=[]
+(gdb) 
+586^done,changelist=[]
+(gdb) 
+587^done,changelist=[]
+(gdb) 
+588^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+589^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559cca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+590^done,stack=[frame={level="0",addr="0x0000555555559cca",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="36",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+591^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+592^done,locals=[{name="strDesired",value="' ' <repeats 13 times>, \"Music\\t| 1\\r\""},{name="line_str",value="\"         first.txt\\tF\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+593^done,depth="11"
+(gdb) 
+594^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+595^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559aca",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+596^done
+(gdb) 
+597^done,depth="14"
+(gdb) 
+598^done,stack=[frame={level="0",addr="0x0000555555559aca",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="38",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+599^done,changelist=[]
+(gdb) 
+600^done,changelist=[{name="var6",value="' ' <repeats 13 times>, \"Music\\t| 1\\r\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+601^done,changelist=[{name="var7",value="\"         first.txt\\tF\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+602^done,changelist=[]
+(gdb) 
+603^done,changelist=[]
+(gdb) 
+604^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+605^done,locals=[{name="strDesired",value="\"Music\\t| 1\""},{name="line_str",value="\"first.txt\\tF\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+606^done,depth="11"
+(gdb) 
+607^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+608^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b38",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+609^done,depth="14"
+(gdb) 
+610^done,changelist=[]
+(gdb) 
+611^done,changelist=[{name="var6",value="\"Music\\t| 1\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+612^done,changelist=[{name="var7",value="\"first.txt\\tF\"",in_scope="true",type_changed="false",displayhint="string",dynamic="1",has_more="0"}]
+(gdb) 
+613^done,changelist=[]
+(gdb) 
+614^done,changelist=[]
+(gdb) 
+615^done
+(gdb) 
+616^done,stack=[frame={level="0",addr="0x0000555555559b38",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="39",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+617^running
+*running,thread-id="all"
+(gdb) 
+*stopped,reason="end-stepping-range",frame={addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},thread-id="1",stopped-threads="all",core="3"
+618^done,locals=[{name="strDesired",value="\"Music\\t| 1\""},{name="line_str",value="\"first.txt\\tF\""},{name="fin",value="<incomplete type>"},{name="sstr",value="<incomplete type>"}]
+(gdb) 
+619^done,depth="11"
+(gdb) 
+620^done,groups=[{id="i1",type="process",pid="6382",executable="/mnt/hgfs/VMsf/Part3/Debug/Part3",cores=["3"]}]
+(gdb) 
+621^done,threads=[{id="1",target-id="Thread 0x7ffff7ef6740 (LWP 6382)",name="Part3",frame={level="0",addr="0x0000555555559b5c",func="check",args=[{name="outputFile",value="\"test1.txt\""}],file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},state="stopped",core="3"}]
+(gdb) 
+622^done,depth="14"
+(gdb) 
+623^done,changelist=[]
+(gdb) 
+624^done,changelist=[]
+(gdb) 
+625^done,changelist=[]
+(gdb) 
+626^done,changelist=[]
+(gdb) 
+627^done,changelist=[]
+(gdb) 
+628^done
+(gdb) 
+629^done,stack=[frame={level="0",addr="0x0000555555559b5c",func="check",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="40",arch="i386:x86-64"},frame={level="1",addr="0x000055555555a98b",func="test1::test_method",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="62",arch="i386:x86-64"},frame={level="2",addr="0x000055555555a5fd",func="test1_invoker",file="../src/Test.cpp",fullname="/mnt/hgfs/VMsf/Part3/src/Test.cpp",line="54",arch="i386:x86-64"},frame={level="3",addr="0x0000555555563af5",func="boost::detail::function::void_function_invoker0<void (*)(), void>::invoke",file="/usr/include/boost/function/function_template.hpp",fullname="/usr/include/boost/function/function_template.hpp",line="117",arch="i386:x86-64"},frame={level="4",addr="0x00007ffff7f41fa2",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="5",addr="0x00007ffff7f48019",func="boost::execution_monitor::catch_signals(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="6",addr="0x00007ffff7f4848f",func="boost::execution_monitor::execute(boost::function<int ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="7",addr="0x00007ffff7f48575",func="boost::execution_monitor::vexecute(boost::function<void ()> const&)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="8",addr="0x00007ffff7f660a1",func="boost::unit_test::unit_test_monitor_t::execute_and_translate(boost::function<void ()> const&, unsigned long)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="9",addr="0x00007ffff7f866b1",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="10",addr="0x00007ffff7f86a3d",func="??",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="11",addr="0x00007ffff7f5040c",func="boost::unit_test::framework::run(unsigned long, bool)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="12",addr="0x00007ffff7f65843",func="boost::unit_test::unit_test_main(bool (*)(), int, char**)",from="/lib/x86_64-linux-gnu/libboost_unit_test_framework.so.1.74.0",arch="i386:x86-64"},frame={level="13",addr="0x00005555555599b4",func="main",file="/usr/include/boost/test/unit_test.hpp",fullname="/usr/include/boost/test/unit_test.hpp",line="64",arch="i386:x86-64"}]
+(gdb) 
+630^error,msg="No symbol \"this\" in current context."
+(gdb) 
+631^error,msg="A syntax error in expression, near `action_func>(&DirectoryEntry::print_action)'."
+(gdb) 
+632^error,msg="No symbol \"childSPVector\" in current context."
+(gdb) 
+633^error,msg="No symbol \"this\" in current context."
+(gdb) 
+634^error,msg="No symbol \"childP\" in current context."
+(gdb) 
+635^done,value="\"Error -- can only do inorder traversal on a node with 2 children\""
+(gdb) 
+636^done,changelist=[]
+(gdb) 
+637^done,changelist=[{name="var11",value="0x555555594ad0",in_scope="true",type_changed="false",has_more="0"}]
+(gdb) 
+638^done,changelist=[]
+(gdb) 
+639^done,changelist=[]
+(gdb) 
+640^done,changelist=[]
+(gdb) 
+641^done,changelist=[]
+(gdb) 
+642^done,changelist=[]
+(gdb) 
+643^done,format="octal",value="02525252526245320"
+(gdb) 
+644^done,format="natural",value="0x555555594ad0"
+(gdb) 
+645^done,format="decimal",value="93824992496336"
+(gdb) 
+646^done,format="natural",value="0x555555594ad0"
+(gdb) 
+647^done,format="binary",value="10101010101010101010101010110010100101011010000"
+(gdb) 
+648^done,format="natural",value="0x555555594ad0"
+(gdb) 
+649^done,format="hexadecimal",value="0x555555594ad0"
+(gdb) 
+650^done,format="natural",value="0x555555594ad0"
+(gdb) 
+651^error,msg="No symbol \"childSPVector\" in current context."
+(gdb) 
+652^error,msg="No symbol \"this\" in current context."
+(gdb) 
+653^error,msg="Attempt to use a type name as an expression"
+(gdb) 
+654^error,msg="No symbol \"make_shared<TreeNode>\" in current context."
+(gdb) 
+655^error,msg="No symbol \"TreeNode\" in current context."
+(gdb) 
+656^error,msg="No symbol \"this\" in current context."
+(gdb) 
+657^error,msg="Attempt to use a type name as an expression"
+(gdb) 
+658^error,msg="Invalid cast."
+(gdb) 
+659^error,msg="No symbol \"other\" in current context."
+(gdb) 
+660^error,msg="Attempt to use a type name as an expression"
+(gdb) 
+661^error,msg="No symbol \"other\" in current context."
+(gdb) 
+662^done,value="0"
+(gdb) 
+663^done,changelist=[]
+(gdb) 
+664^error,msg="No symbol \"nullptr\" in current context."
+(gdb) 
+665^error,msg="No symbol \"this\" in current context."
+(gdb) 
+666^error,msg="No symbol \"operator=\" in current context."
+(gdb) 
+667^error,msg="No symbol \"other\" in current context."
+(gdb) 
+668^error,msg="No symbol \"root_dir1P\" in current context."
+(gdb) 
+669^error,msg="No symbol \"root_dir3P\" in current context."
+(gdb) 
+670^done,value="{std::shared_ptr<Directory> (const std::string_view &)} 0x5555555657fe <make_directory_tree(std::basic_string_view<char, std::char_traits<char> > const&)>"
+(gdb) 
+671^done,name="var18",numchild="0",value="{std::shared_ptr<Directory> (const std::string_view &)} 0x5555555657fe <make_directory_tree(std::basic_string_view<char, std::char_traits<char> > const&)>",type="std::shared_ptr<Directory> (const std::string_view &)",has_more="0"
+(gdb) 
+672^done,format="octal",value="0363"
+(gdb) 
+673^done,format="natural",value="{std::shared_ptr<Directory> (const std::string_view &)} 0x5555555657fe <make_directory_tree(std::basic_string_view<char, std::char_traits<char> > const&)>"
+(gdb) 
+674^done,format="decimal",value="-13"
+(gdb) 
+675^done,format="natural",value="{std::shared_ptr<Directory> (const std::string_view &)} 0x5555555657fe <make_directory_tree(std::basic_string_view<char, std::char_traits<char> > const&)>"
+(gdb) 
+676^done,format="binary",value="11110011"
+(gdb) 
+677^done,format="natural",value="{std::shared_ptr<Directory> (const std::string_view &)} 0x5555555657fe <make_directory_tree(std::basic_string_view<char, std::char_traits<char> > const&)>"
+(gdb) 
+678^done,format="hexadecimal",value="0xf3"
+(gdb) 
+679^done,format="natural",value="{std::shared_ptr<Directory> (const std::string_view &)} 0x5555555657fe <make_directory_tree(std::basic_string_view<char, std::char_traits<char> > const&)>"
+(gdb) 
+680^error,msg="No symbol \"root_dir2\" in current context."
+(gdb) 
+681^error,msg="No symbol \"root_dir2\" in current context."
+(gdb) 
+682^error,msg="No symbol \"root_dir1P\" in current context."
+(gdb) 
+683^done,value="\"Count: \""
+(gdb) 
+684^done,name="var19",numchild="8",value="[8]",type="char [8]",has_more="0"
+(gdb) 
+685^done,name="var20",numchild="1",value="0x5555555b2f10",type="char (*)[8]",has_more="0"
+(gdb) 
+686^done,name="var21",numchild="0",value="67 'C'",type="char",has_more="0"
+(gdb) 
+687^done,name="var22",numchild="0",value="111 'o'",type="char",has_more="0"
+(gdb) 
+688^done,name="var23",numchild="0",value="117 'u'",type="char",has_more="0"
+(gdb) 
+689^done,name="var24",numchild="0",value="110 'n'",type="char",has_more="0"
+(gdb) 
+690^done,name="var25",numchild="0",value="116 't'",type="char",has_more="0"
+(gdb) 
+691^done,format="octal",value="02525252526627420"
+(gdb) 
+692^done,format="natural",value="0x5555555b2f10"
+(gdb) 
+693^done,format="decimal",value="93824992620304"
+(gdb) 
+694^done,format="natural",value="0x5555555b2f10"
+(gdb) 
+695^done,format="binary",value="10101010101010101010101010110110010111100010000"
+(gdb) 
+696^done,format="natural",value="0x5555555b2f10"
+(gdb) 
+697^done,format="hexadecimal",value="0x5555555b2f10"
+(gdb) 
+698^done,format="natural",value="0x5555555b2f10"
+(gdb) 
+699^error,msg="Invalid character '\\' in expression."
+(gdb) 
+700^error,msg="No symbol \"traverse_children_post_order\" in current context."
+(gdb) 
+701^error,msg="No symbol \"this\" in current context."
+(gdb) 
+702^error,msg="No symbol \"this\" in current context."
+(gdb) 
+703^error,msg="No symbol \"TreeNodeSPVect\" in current context."
+(gdb) 
+704^error,msg="No symbol \"traverse_func\" in current context."
+(gdb) 
+705^error,msg="No symbol \"child\" in current context."
+(gdb) 
+706^error,msg="No symbol \"temp\" in current context."
+(gdb) 
+707^error,msg="No symbol \"root_dir3P\" in current context."
+(gdb) 
+708^error,msg="No symbol \"swap\" in current context."
+(gdb) 
+709^error,msg="No symbol \"add_childP\" in current context."
+(gdb) 
+710^error,msg="No symbol \"print_action\" in current context."
+(gdb) 
+711^error,msg="Invalid character '\\' in expression."
+(gdb) 
+712^error,msg="No symbol \"nodeToCopy\" in current context."
+(gdb) 
+713^error,msg="No symbol \"TreeNodeSP\" in current context."
+(gdb) 
+714^error,msg="No symbol \"add_children\" in current context."
+(gdb) 
+715^error,msg="No symbol \"traverse_children_pre_order\" in current context."
+(gdb) 
